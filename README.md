@@ -128,13 +128,12 @@ python script_data_collection.py  \
   --input ${DATAPATH}/${THIS_DATADIR} \
   --output $DATAPATH/${THIS_DATADIR}_log \
   --dims 69 69 33120 --cmp cuSZi
-
+```
 </details>
 
-
-</details>
 
 <details>
+
 <summary>
 Unfold to see commands to run the full experiments covering all compressors.
 </summary>
@@ -163,7 +162,7 @@ python script_data_collection.py  \
   --input ${DATAPATH}/${THIS_DATADIR} \
   --output $DATAPATH/${THIS_DATADIR}_log \
   --dims 69 69 33120
-
+```
 
 </details>
 
@@ -199,7 +198,7 @@ python script_data_analysis.py  \
   --input ${DATAPATH}/${THIS_DATADIR}_log \
   --output $DATAPATH/${THIS_DATADIR}_csv \
   --dims 69 69 33120 --cmp cuSZHi
-
+```
 </details>
 
 <details>
@@ -231,6 +230,5 @@ python script_data_analysis.py  \
   --input ${DATAPATH}/${THIS_DATADIR}_log \
   --output $DATAPATH/${THIS_DATADIR}_csv \
   --dims 69 69 33120
-
+```
 </details>
-# 25_SC_cuSZHi_artifact

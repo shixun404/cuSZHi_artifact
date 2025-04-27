@@ -6,13 +6,13 @@ GRAY='\033[0;37m'
 NOCOLOR='\033[0m'
 
 # cusz-stock and cusz-interp
-echo "\n${BOLDRED}setting up stock cuSZ and cuSZ-i (this work)...${GRAY}"
-cmake -S cusz-interp -B cusz-interp/build \
+echo "\n${BOLDRED}setting up stock cuSZ and cuSZ-Hi (this work)...${GRAY}"
+cmake -S cusz-Hi -B cusz-Hi/build \
     -D PSZ_BACKEND=cuda \
     -D PSZ_BUILD_EXAMPLES=off \
     -D CMAKE_CUDA_ARCHITECTURES="75;80;86" \
     -D CMAKE_BUILD_TYPE=Release 
-cmake --build cusz-interp/build -- -j
+cmake --build cusz-Hi/build -- -j
 
 # fzgpu
 echo "\n${BOLDRED}setting up FZ-GPU...${GRAY}"
@@ -20,13 +20,6 @@ pushd fzgpu
 make -j
 popd
 
-# szx-cuda
-echo "\n${BOLDRED}setting up SZx-CUDA...${GRAY}"
-cmake -S szx-cuda -B szx-cuda/build \
-    -D SZx_BUILD_CUDA=on \
-    -D CMAKE_CUDA_ARCHITECTURES="75;80;86" \
-    -D CMAKE_BUILD_TYPE=Release 
-cmake --build szx-cuda/build -- -j
 
 # cuszp
 echo "\n${BOLDRED}setting up cuSZp...${GRAY}"

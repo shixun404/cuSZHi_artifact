@@ -11,11 +11,10 @@ NVCOMP_DIR12="nvcomp${NVCOMP_VER}-cuda12"
 
 export WORKSPACE=$(pwd)
 
-export PATH=$(pwd)/cusz-interp/build:$PATH
+export PATH=$(pwd)/cusz-Hi/build:$PATH
+export PATH=$(pwd)/cusz/build:$PATH
 export PATH=$(pwd)/fzgpu:$PATH
 export PATH=$(pwd)/cuszp/build/examples/bin:$PATH
-export PATH=$(pwd)/szx-cuda/build:$PATH
-export PATH=$(pwd)/szx-cuda/build/example:$PATH
 export PATH=$(pwd)/zfp-cuda/build:$PATH
 export PATH=$(pwd)/zfp-cuda/build/bin:$PATH
 
@@ -35,7 +34,6 @@ if [ $# -eq 0 ]; then
     echo "bash setup-all.sh [arg1] [arg2]"
     echo "arg1:"
     echo "  * \"purge\"  to reset this workspace"
-    echo "  * \"11\"     to initialize the artifacts for CUDA 11"
     echo "  * \"12\"     to initialize the artifacts for CUDA 12"
     echo "arg2:"
     echo "  * \"where to put data dirs\""
@@ -43,10 +41,10 @@ elif [ $# -eq 1 ]; then
     if [[ "$1" = "purge" ]]; then
         echo "purging build files..."
         rm -fr \
-            cusz-interp/build \
+            cusz-Hi/build \
+            cusz/build \
             fzgpu/claunch_cuda.o fzgpu/fz-gpu \
             cuszp/build/examples/bin \
-            szx-cuda/build \
             zfp-cuda/build 
     fi
 elif [ $# -eq 2 ]; then 
