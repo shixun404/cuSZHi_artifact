@@ -25,10 +25,6 @@
 [submodule "fzgpu"]
 	path = fzgpu
 	url = https://github.com/shixun404/FZ-GPU.git
-[submodule "cuszp"]
-	path = cuszp
-	url = https://github.com/shixun404/cuSZp
-	branch = master
 [submodule "zfp-cuda_upstream"]
 	path = zfp-cuda_upstream
 	url = https://github.com/LLNL/zfp.git
@@ -38,3 +34,7 @@
 [submodule "zfp-cuda_patched"]
 	path = zfp-cuda_patched
 	url = https://github.com/robertu94/zfp.git
+[submodule "cuszp2"]
+	path = cuszp2
+	url = https://github.com/shixun404/cuSZp
+	branch = master
