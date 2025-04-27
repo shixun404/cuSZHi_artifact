@@ -1,20 +1,19 @@
-# Private Repository for cuSZ-i Workgroup
+# SC '25 cuSZ-Hi Artifact
 
-This detached repo is based on the SC '24 artifacts for continous development.
+This detached repo is based on the SC '25 artifacts for continous development.
 
 ## Artifact Setup
 
 ### Hardware
 
-We require NVIDIA A100 GPU (40-GB, i.e., the common variant) to cover the essential functionality and, optionally, NVIDIA A40 GPU to cover the throughput scalability.
+We require NVIDIA A100 GPU or newer to cover the essential functionality. In our paper, we evaluated the artifact on NVIDIA A100 (80GB) and RTX 6000 Ada to verify throughput scalability.
 
 ### Software
 
 - We require an up-to-date mainstream Linux distro as the base environment.
   - e.g., CentOS 7 onward, Ubuntu 22.04.
-- We require CUDA SDK of version 11.4 onward but lower than 12.5 (i.e., 11.4 to 12.4, inclusively).
-  - corresponding to CUDA driver of version 470 onward.
-  - CUDA 12.5 was tested not compatible.
+- We require CUDA SDK of version 12.4 or 12.6.
+  - corresponding to CUDA driver of version 550 onward.
 - We require C++17-compliant host compiler.
   - e.g., GCC 9.3 onward.
 - We require a modern cmake build system.
@@ -31,8 +30,8 @@ The details are folded here.
 </summary>
 
 - JHTDB 
-  - Though hosted on https://turbulence.pha.jhu.edu/ as open data, it requires a token to access the data, which prohibits us from automating the data preprocessing. Thus, we don't include JHTDB datafields for the artifacts.
-- Miranda, Nyx, QMCPack, S3D 
+  - Though hosted on https://turbulence.pha.jhu.edu/ as open data, it requires a token to access the data, which prohibits us from automating the data preprocessing. We can upload the data to a sharepoint if required.
+- CESM, Miranda, Nyx, QMCPack 
   - hosted on https://sdrbench.github.io
 - RTM data are from proprietary simulations
   - which are not open to the public.
@@ -46,7 +45,7 @@ To use `module-load` to setup the toolchain:
 
 ```bash
 ## Please change the version accordingly.
-module load cuda/11.4
+module load cuda/12.4
 module load gcc/9.3
 ````
 
@@ -87,10 +86,7 @@ git clone --recursive \
 cd sc25cuSZHi
 
 ## (2) setup
-## If you use CUDA 11
-source setup-all.sh 11 <WHERE_TO_PUT_DATA_DIRS>
-## If you use CUDA 12
-# source setup-all.sh 12 <WHERE_TO_PUT_DATA_DIRS>
+source setup-all.sh 12 <WHERE_TO_PUT_DATA_DIRS>
 
 ## (!!) clear build cache without removing data
 bash setup-all.sh purge
@@ -105,7 +101,7 @@ Navigate back to the workplace using `cd $WORKSPACE`. Then, run for each dataset
 
 <details>
 <summary>
-Unfold to see commands to run the fast experiments covering cuSZ-i only.
+Unfold to see commands to run the fast experiments covering cuSZ-Hi only.
 </summary>
 
 ```bash
