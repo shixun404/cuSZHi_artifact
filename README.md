@@ -82,9 +82,9 @@ export LD_LIBRARY_PATH=$(dirname $(which nvcc))/../lib64:$LD_LIBRARY_PATH
 ## (1) get the artifacts repo
 cd $HOME ## It can be anywhere.
 git clone --recursive \
-  https://github.com/jtian0/24_SC_artifacts.git \
-  sc24cuszi
-cd sc24cuszi
+  https://github.com/shixun404/25_SC_cuSZHi_artifact.git \
+  sc25cuSZHi
+cd sc25cuSZHi
 
 ## (2) setup
 ## If you use CUDA 11
@@ -133,13 +133,6 @@ python script_data_collection.py  \
   --output $DATAPATH/${THIS_DATADIR}_log \
   --dims 69 69 33120 --cmp cuSZi
 
-## S3D
-THIS_DATRADIR=SDRBENCH-S3D
-python script_data_collection.py  \
-  --input ${DATAPATH}/${THIS_DATADIR} \
-  --output $DATAPATH/${THIS_DATADIR}_log \
-  --dims 500 500 500 --cmp cuSZi
-```
 </details>
 
 
@@ -175,13 +168,6 @@ python script_data_collection.py  \
   --output $DATAPATH/${THIS_DATADIR}_log \
   --dims 69 69 33120
 
-## S3D
-THIS_DATRADIR=SDRBENCH-S3D
-python script_data_collection.py  \
-  --input ${DATAPATH}/${THIS_DATADIR} \
-  --output $DATAPATH/${THIS_DATADIR}_log \
-  --dims 500 500 500
-```
 
 </details>
 
@@ -190,7 +176,7 @@ python script_data_collection.py  \
 
 <details>
 <summary>
-Unfold to see commands to analyze cuSZ-i only.
+Unfold to see commands to analyze cuSZ-Hi only.
 </summary>
 
 ```bash
@@ -202,29 +188,21 @@ THIS_DATADIR=SDRBENCH-EXASKY-NYX-512x512x512
 python script_data_analysis.py  \
   --input ${DATAPATH}/${THIS_DATADIR}_log \
   --output $DATAPATH/${THIS_DATADIR}_csv \
-  --dims 512 512 512 --cmp cuSZi
+  --dims 512 512 512 --cmp cuSZHi
 
 ## Miranda
 THIS_DATADIR=SDRBENCH-Miranda-256x384x384
 python script_data_analysis.py  \
   --input ${DATAPATH}/${THIS_DATADIR}_log \
   --output $DATAPATH/${THIS_DATADIR}_csv \
-  --dims 384 384 256 --cmp cuSZi
+  --dims 384 384 256 --cmp cuSZHi
 
 ## QMC
 THIS_DATADIR=SDRBENCH-SDRBENCH-QMCPack
 python script_data_analysis.py  \
   --input ${DATAPATH}/${THIS_DATADIR}_log \
   --output $DATAPATH/${THIS_DATADIR}_csv \
-  --dims 69 69 33120 --cmp cuSZi
-
-## S3D
-THIS_DATRADIR=SDRBENCH-S3D
-python script_data_analysis.py  \
-  --input ${DATAPATH}/${THIS_DATADIR}_log \
-  --output $DATAPATH/${THIS_DATADIR}_csv \
-  --dims 500 500 500 --cmp cuSZi
-```
+  --dims 69 69 33120 --cmp cuSZHi
 
 </details>
 
@@ -257,14 +235,6 @@ python script_data_analysis.py  \
   --input ${DATAPATH}/${THIS_DATADIR}_log \
   --output $DATAPATH/${THIS_DATADIR}_csv \
   --dims 69 69 33120
-
-## S3D
-THIS_DATRADIR=SDRBENCH-S3D
-python script_data_analysis.py  \
-  --input ${DATAPATH}/${THIS_DATADIR}_log \
-  --output $DATAPATH/${THIS_DATADIR}_csv \
-  --dims 500 500 500
-```
 
 </details>
 # 25_SC_cuSZHi_artifact
