@@ -1,11 +1,11 @@
-[submodule "cusz-interp"]
-	path = cusz-interp
+[submodule "cusz-Hi"]
+	path = cusz-Hi
 	url = https://github.com/shixun404/cusz-Hi.git
 	branch = cuSZ-Hi
 [submodule "cusz"]
 	path = cusz
 	url = https://github.com/JLiu-1/cusz-I.git
-	branch = nightly 
+	branch = nightly
 [submodule "cusz_24_2d"]
 	path = cusz_24_2d
 	url = https://github.com/shixun404/cusz-I.git
@@ -13,32 +13,26 @@
 [submodule "cusz-interp_16_4steps"]
 	path = cusz-interp_16_4steps
 	url = https://github.com/JLiu-1/cusz-I.git
-	branch = interp_16_4steps 
-
+	branch = interp_16_4steps
 [submodule "cusz-interp_16_4steps_reorder"]
 	path = cusz-interp_16_4steps_reorder
 	url = https://github.com/JLiu-1/cusz-I.git
-	branch = interp_16_4steps_reorder 
-
+	branch = interp_16_4steps_reorder
 [submodule "cusz-interp_16_4steps_reorder_att_balance"]
 	path = cusz-interp_16_4steps_reorder_att_balance
 	url = https://github.com/JLiu-1/cusz-I.git
 	branch = interp_16_4steps_reorder_att_balance
-
 [submodule "fzgpu"]
 	path = fzgpu
 	url = https://github.com/shixun404/FZ-GPU.git
-[submodule "SZx"]
-	path = szx-cuda
-	url = https://github.com/szcompressor/SZx
 [submodule "cuszp"]
 	path = cuszp
 	url = https://github.com/shixun404/cuSZp
 	branch = master
-[submodule "cuzfp"]
+[submodule "zfp-cuda_upstream"]
 	path = zfp-cuda_upstream
 	url = https://github.com/LLNL/zfp.git
-[submodule "qcat"]
+[submodule "analyzer"]
 	path = analyzer
 	url = https://github.com/szcompressor/qcat.git
 [submodule "zfp-cuda_patched"]
