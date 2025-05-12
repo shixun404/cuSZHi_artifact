@@ -33,6 +33,22 @@ def update_command(cmp, data_path, data_size, error_bound="1e-2", bit_rate="2", 
                     "-f",  data_path, data_path+'.fzgpux',],
                     ["rm",
                     data_path + '.fzgpua', data_path+'.fzgpux', data_path + '.fzgpua.bitcomp',data_path + '.fzgpua.bitcomp.decompressed',  f"./{nsys_result_path}/result.nsys-rep",  f"./{nsys_result_path}/result.sqlite"]]
+
+    if cmp == "PFPL":
+        cmd = [
+                    ["nsys", "profile",  "--stats=true", "-o", nsys_result_path, "f32_noa_compress_cuda",
+                    data_path, 
+                    data_path + '.pfpla',
+                    error_bound,
+                    ],
+                    ["nsys", "profile",  "--stats=true", "-o", nsys_result_path, "f32_noa_decompress_cuda",
+                    data_path + '.pfpla', 
+                    data_path + '.pfplx',
+                    ],
+                    ["compareData",
+                    "-f",  data_path, data_path+'.pfplx',],
+                    ["rm",
+                    data_path + '.pfpla', data_path+'.pfplx', data_path + '.pfpla.bitcomp',data_path + '.pfpla.bitcomp.decompressed',  f"./{nsys_result_path}/result.nsys-rep",  f"./{nsys_result_path}/result.sqlite"]]
     elif cmp == "cuSZ":
         cmd = [["nsys", "profile",  "--stats=true", "-o", nsys_result_path, "cusz-interp_24/build/cuszi", 
                     "-t", "f32",
@@ -444,6 +460,25 @@ def run_FZGPU(command, bitcomp_cmd_nv, bitcomp_cmd, file_path):
                    "-compareData-\n" + qcat_result.stdout + qcat_result.stderr + "-compareData-\n")
     result = subprocess.run(command[-1], capture_output=True, text=True, shell=True)
 
+def run_PFPL(command, bitcomp_cmd_nv, bitcomp_cmd, file_path):
+    result = subprocess.run(command[0], capture_output=True, text=True)
+    decomp_result = subprocess.run(command[1], capture_output=True, text=True)
+    qcat_result = subprocess.run(command[2], capture_output=True, text=True)
+    nvcomp = copy.deepcopy(bitcomp_cmd_nv)
+    nvcomp[-3] += '.pfpla'
+    bitcomp = copy.deepcopy(bitcomp_cmd)
+    bitcomp[-1] += '.pfpla'
+    nvcomp_result = subprocess.run(nvcomp, capture_output=True, text=True)
+    # bitcomp_result = ""
+    bitcomp_result = subprocess.run(bitcomp, capture_output=True, text=True)
+    with open(file_path, 'w') as file:
+        file.write("-pfpl_compress-\n" + result.stdout + result.stderr + "-pfpl_compress-\n" + 
+                   "-pfpl_decompress-\n" + decomp_result.stdout + decomp_result.stderr + "-pfpl_decompress-\n" + 
+                   "-nvcomp-\n" + nvcomp_result.stdout + nvcomp_result.stderr + "-nvcomp-\n" + 
+                    "-bitcomp-\n" + bitcomp_result.stdout + bitcomp_result.stderr + "-bitcomp-\n" + 
+                   "-compareData-\n" + qcat_result.stdout + qcat_result.stderr + '-compareData-\n')
+    result = subprocess.run(command[-1], capture_output=True, text=True, shell=True)
+
 def run_cuSZ(command, bitcomp_cmd_nv, bitcomp_cmd, file_path):
     result = subprocess.run(command[0], capture_output=True, text=True)
     decomp_result = subprocess.run(command[1], capture_output=True, text=True)
@@ -582,7 +617,8 @@ if __name__ == '__main__':
                 #     'cuSZp_plain', 
                     # 'cuzfp', 
                     #   'cuSZ_24', 
-                    'cuSZi_24',
+                    # 'cuSZi_24',
+                    'PFPL',
                     #   'cuSZi_a3_Huff_1', 'cuSZi_a6_Huff_1', 
                     #   'cuSZi_a3_Huff_0', 'cuSZi_a6_Huff_0', 
                     # 'cuSZi_interp_16_4steps',
@@ -606,6 +642,7 @@ if __name__ == '__main__':
                 'cuSZi_interp_16_4steps_reorder_att_balance_a6':run_cuSZ,
                  "cuSZi_24":run_cuSZ,
                  "cuSZ_24":run_cuSZ,
+                 "PFPL":run_PFPL
                 }
     
     cmp_list = method_list      if cmp_list is None else cmp_list
