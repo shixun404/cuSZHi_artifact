@@ -1,0 +1,649 @@
+-pfpl_compress-
+PFPL GPU Single-Precision NOA Compressor
+Copyright 2025 Texas State University
+
+original size: 189504940 bytes
+lc comp ecltime,  0.010875808
+encoded size: 20103017 bytes
+compression ratio: 9.43
+Collecting data...
+Generating '/tmp/nsys-report-00fa.qdstrm'
+
+[1/8] [0%                          ] nsys-report-e43d.nsys-rep
+[1/8] [0%                          ] nsys-report-e43d.nsys-rep
+[1/8] [=======38%                  ] nsys-report-e43d.nsys-rep
+[1/8] [=================73%        ] nsys-report-e43d.nsys-rep
+[1/8] [=================74%        ] nsys-report-e43d.nsys-rep
+[1/8] [==================75%       ] nsys-report-e43d.nsys-rep
+[1/8] [==================76%       ] nsys-report-e43d.nsys-rep
+[1/8] [==================78%       ] nsys-report-e43d.nsys-rep
+[1/8] [===================81%      ] nsys-report-e43d.nsys-rep
+[1/8] [========================98% ] nsys-report-e43d.nsys-rep
+[1/8] [========================100%] nsys-report-e43d.nsys-rep
+[1/8] [========================100%] nsys-report-e43d.nsys-rep
+
+[2/8] [0%                          ] nsys-report-1d29.sqlite
+[2/8] [1%                          ] nsys-report-1d29.sqlite
+[2/8] [2%                          ] nsys-report-1d29.sqlite
+[2/8] [3%                          ] nsys-report-1d29.sqlite
+[2/8] [4%                          ] nsys-report-1d29.sqlite
+[2/8] [5%                          ] nsys-report-1d29.sqlite
+[2/8] [6%                          ] nsys-report-1d29.sqlite
+[2/8] [7%                          ] nsys-report-1d29.sqlite
+[2/8] [8%                          ] nsys-report-1d29.sqlite
+[2/8] [9%                          ] nsys-report-1d29.sqlite
+[2/8] [10%                         ] nsys-report-1d29.sqlite
+[2/8] [11%                         ] nsys-report-1d29.sqlite
+[2/8] [12%                         ] nsys-report-1d29.sqlite
+[2/8] [13%                         ] nsys-report-1d29.sqlite
+[2/8] [14%                         ] nsys-report-1d29.sqlite
+[2/8] [=15%                        ] nsys-report-1d29.sqlite
+[2/8] [=16%                        ] nsys-report-1d29.sqlite
+[2/8] [=17%                        ] nsys-report-1d29.sqlite
+[2/8] [==18%                       ] nsys-report-1d29.sqlite
+[2/8] [==19%                       ] nsys-report-1d29.sqlite
+[2/8] [==20%                       ] nsys-report-1d29.sqlite
+[2/8] [==21%                       ] nsys-report-1d29.sqlite
+[2/8] [===22%                      ] nsys-report-1d29.sqlite
+[2/8] [===23%                      ] nsys-report-1d29.sqlite
+[2/8] [===24%                      ] nsys-report-1d29.sqlite
+[2/8] [====25%                     ] nsys-report-1d29.sqlite
+[2/8] [====26%                     ] nsys-report-1d29.sqlite
+[2/8] [====27%                     ] nsys-report-1d29.sqlite
+[2/8] [====28%                     ] nsys-report-1d29.sqlite
+[2/8] [=====29%                    ] nsys-report-1d29.sqlite
+[2/8] [=====30%                    ] nsys-report-1d29.sqlite
+[2/8] [=====31%                    ] nsys-report-1d29.sqlite
+[2/8] [=====32%                    ] nsys-report-1d29.sqlite
+[2/8] [======33%                   ] nsys-report-1d29.sqlite
+[2/8] [======34%                   ] nsys-report-1d29.sqlite
+[2/8] [======35%                   ] nsys-report-1d29.sqlite
+[2/8] [=======36%                  ] nsys-report-1d29.sqlite
+[2/8] [=======37%                  ] nsys-report-1d29.sqlite
+[2/8] [=======38%                  ] nsys-report-1d29.sqlite
+[2/8] [=======39%                  ] nsys-report-1d29.sqlite
+[2/8] [========40%                 ] nsys-report-1d29.sqlite
+[2/8] [========41%                 ] nsys-report-1d29.sqlite
+[2/8] [========42%                 ] nsys-report-1d29.sqlite
+[2/8] [=========43%                ] nsys-report-1d29.sqlite
+[2/8] [=========44%                ] nsys-report-1d29.sqlite
+[2/8] [=========45%                ] nsys-report-1d29.sqlite
+[2/8] [=========46%                ] nsys-report-1d29.sqlite
+[2/8] [==========47%               ] nsys-report-1d29.sqlite
+[2/8] [==========48%               ] nsys-report-1d29.sqlite
+[2/8] [==========49%               ] nsys-report-1d29.sqlite
+[2/8] [===========50%              ] nsys-report-1d29.sqlite
+[2/8] [===========51%              ] nsys-report-1d29.sqlite
+[2/8] [===========52%              ] nsys-report-1d29.sqlite
+[2/8] [===========53%              ] nsys-report-1d29.sqlite
+[2/8] [============54%             ] nsys-report-1d29.sqlite
+[2/8] [============55%             ] nsys-report-1d29.sqlite
+[2/8] [============56%             ] nsys-report-1d29.sqlite
+[2/8] [============57%             ] nsys-report-1d29.sqlite
+[2/8] [=============58%            ] nsys-report-1d29.sqlite
+[2/8] [=============59%            ] nsys-report-1d29.sqlite
+[2/8] [=============60%            ] nsys-report-1d29.sqlite
+[2/8] [==============61%           ] nsys-report-1d29.sqlite
+[2/8] [==============62%           ] nsys-report-1d29.sqlite
+[2/8] [==============63%           ] nsys-report-1d29.sqlite
+[2/8] [==============64%           ] nsys-report-1d29.sqlite
+[2/8] [===============65%          ] nsys-report-1d29.sqlite
+[2/8] [===============66%          ] nsys-report-1d29.sqlite
+[2/8] [===============67%          ] nsys-report-1d29.sqlite
+[2/8] [================68%         ] nsys-report-1d29.sqlite
+[2/8] [================69%         ] nsys-report-1d29.sqlite
+[2/8] [================70%         ] nsys-report-1d29.sqlite
+[2/8] [================71%         ] nsys-report-1d29.sqlite
+[2/8] [=================72%        ] nsys-report-1d29.sqlite
+[2/8] [=================73%        ] nsys-report-1d29.sqlite
+[2/8] [=================74%        ] nsys-report-1d29.sqlite
+[2/8] [==================75%       ] nsys-report-1d29.sqlite
+[2/8] [==================76%       ] nsys-report-1d29.sqlite
+[2/8] [==================77%       ] nsys-report-1d29.sqlite
+[2/8] [==================78%       ] nsys-report-1d29.sqlite
+[2/8] [===================79%      ] nsys-report-1d29.sqlite
+[2/8] [===================80%      ] nsys-report-1d29.sqlite
+[2/8] [===================81%      ] nsys-report-1d29.sqlite
+[2/8] [===================82%      ] nsys-report-1d29.sqlite
+[2/8] [====================83%     ] nsys-report-1d29.sqlite
+[2/8] [====================84%     ] nsys-report-1d29.sqlite
+[2/8] [====================85%     ] nsys-report-1d29.sqlite
+[2/8] [=====================86%    ] nsys-report-1d29.sqlite
+[2/8] [=====================87%    ] nsys-report-1d29.sqlite
+[2/8] [=====================88%    ] nsys-report-1d29.sqlite
+[2/8] [=====================89%    ] nsys-report-1d29.sqlite
+[2/8] [======================90%   ] nsys-report-1d29.sqlite
+[2/8] [======================91%   ] nsys-report-1d29.sqlite
+[2/8] [======================92%   ] nsys-report-1d29.sqlite
+[2/8] [=======================93%  ] nsys-report-1d29.sqlite
+[2/8] [=======================94%  ] nsys-report-1d29.sqlite
+[2/8] [=======================95%  ] nsys-report-1d29.sqlite
+[2/8] [=======================96%  ] nsys-report-1d29.sqlite
+[2/8] [========================97% ] nsys-report-1d29.sqlite
+[2/8] [========================98% ] nsys-report-1d29.sqlite
+[2/8] [========================99% ] nsys-report-1d29.sqlite
+[2/8] [========================100%] nsys-report-1d29.sqlite
+[2/8] [========================100%] nsys-report-1d29.sqlite
+[3/8] Executing 'nvtx_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)   Style             Range          
+ --------  ---------------  ---------  --------  --------  --------  --------  -----------  -------  -------------------------
+    100.0           21,820          1  21,820.0  21,820.0    21,820    21,820          0.0  PushPop  CCCL:cub::DeviceFor::Bulk
+
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)     Med (ns)    Min (ns)   Max (ns)    StdDev (ns)            Name         
+ --------  ---------------  ---------  ------------  -----------  --------  -----------  ------------  ----------------------
+     47.6      286,707,613         14  20,479,115.2  4,775,247.0     1,300  100,149,433  33,498,420.9  poll                  
+     36.2      218,285,291        615     354,935.4     12,950.0     1,180   84,814,687   3,584,269.4  ioctl                 
+      6.1       36,619,814          3  12,206,604.7     13,370.0     9,239   36,597,205  21,122,879.6  fread                 
+      5.0       30,424,579         21   1,448,789.5     13,530.0     4,330   29,924,794   6,524,779.6  mmap                  
+      2.7       16,186,785         36     449,632.9      6,100.0     4,440   15,944,729   2,656,303.8  fclose                
+      1.3        8,059,423          3   2,686,474.3      2,880.0     1,910    8,054,633   4,648,961.8  fwrite                
+      0.3        1,874,304         29      64,631.2     13,889.0     6,070    1,180,984     216,249.1  mmap64                
+      0.3        1,545,136         40      38,628.4      7,750.0     4,639    1,125,455     176,407.3  fopen                 
+      0.2        1,376,272         10     137,627.2     76,814.0    54,829      702,111     198,529.1  sem_timedwait         
+      0.1          673,621          3     224,540.3    232,857.0   198,907      241,857      22,650.6  pthread_create        
+      0.1          474,231         49       9,678.2      9,400.0     6,339       19,410       2,269.3  open64                
+      0.0          266,406          1     266,406.0    266,406.0   266,406      266,406           0.0  pthread_cond_wait     
+      0.0           96,809          4      24,202.3      8,950.0     8,080       70,829      31,087.6  fgets                 
+      0.0           69,779          9       7,753.2      7,109.0     3,660       11,190       2,661.8  munmap                
+      0.0           61,658         15       4,110.5      4,480.0     2,040        5,970         961.4  read                  
+      0.0           59,150         12       4,929.2      4,690.0     2,450       10,270       2,134.2  write                 
+      0.0           52,678          6       8,779.7      8,280.0     6,109       12,339       2,322.7  open                  
+      0.0           31,930          2      15,965.0     15,965.0     9,650       22,280       8,930.8  socket                
+      0.0           19,660          3       6,553.3      6,550.0     6,540        6,570          15.3  fopen64               
+      0.0           18,920          3       6,306.7      7,060.0     3,200        8,660       2,806.9  pipe2                 
+      0.0           11,840          1      11,840.0     11,840.0    11,840       11,840           0.0  connect               
+      0.0           11,368          2       5,684.0      5,684.0     3,189        8,179       3,528.5  pthread_cond_broadcast
+      0.0            3,590          3       1,196.7      1,160.0     1,000        1,430         217.3  fcntl                 
+      0.0            2,880          1       2,880.0      2,880.0     2,880        2,880           0.0  bind                  
+      0.0            1,030          1       1,030.0      1,030.0     1,030        1,030           0.0  listen                
+      0.0            1,019          1       1,019.0      1,019.0     1,019        1,019           0.0  dup                   
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)      Med (ns)     Min (ns)    Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ------------  ------------  ----------  ----------  -----------  ----------------------
+     59.6       86,530,564          1  86,530,564.0  86,530,564.0  86,530,564  86,530,564          0.0  cudaMallocHost        
+     25.5       37,111,179          1  37,111,179.0  37,111,179.0  37,111,179  37,111,179          0.0  cudaFreeHost          
+      6.9        9,968,549          6   1,661,424.8      31,555.0       6,810   6,533,704  2,733,738.2  cudaLaunchKernel      
+      6.2        8,947,571          3   2,982,523.7     770,240.0      13,500   8,163,831  4,503,068.2  cudaMemcpy            
+      1.0        1,497,840          5     299,568.0       5,540.0       2,900   1,187,204    512,261.6  cudaFree              
+      0.4          513,984          6      85,664.0      44,204.5       3,190     252,477    103,990.9  cudaMalloc            
+      0.3          449,654          7      64,236.3       2,090.0       1,050     432,084    162,221.3  cudaDeviceSynchronize 
+      0.1          190,097          3      63,365.7       1,770.0         800     187,527    107,528.0  cudaStreamSynchronize 
+      0.0           23,580          1      23,580.0      23,580.0      23,580      23,580          0.0  cudaMemcpyAsync       
+      0.0           13,419          2       6,709.5       6,709.5         450      12,969      8,852.3  cudaEventCreate       
+      0.0            9,860          2       4,930.0       4,930.0       3,360       6,500      2,220.3  cudaEventRecord       
+      0.0            9,780          1       9,780.0       9,780.0       9,780       9,780          0.0  cudaMemset            
+      0.0            3,170          1       3,170.0       3,170.0       3,170       3,170          0.0  cudaEventSynchronize  
+      0.0            2,280          2       1,140.0       1,140.0         340       1,940      1,131.4  cudaEventDestroy      
+      0.0              670          1         670.0         670.0         670         670          0.0  cuModuleGetLoadingMode
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)                                                  Name                                                
+ --------  ---------------  ---------  ---------  ---------  --------  --------  -----------  ----------------------------------------------------------------------------------------------------
+     65.1          431,235          1  431,235.0  431,235.0   431,235   431,235          0.0  d_encode(const unsigned char *, int, unsigned char *, int *, int *, float, float, const float *, co…
+     33.8          224,033          1  224,033.0  224,033.0   224,033   224,033          0.0  void thrust::THRUST_200500_890_NS::cuda_cub::core::_kernel_agent<thrust::THRUST_200500_890_NS::cuda…
+      0.5            3,392          1    3,392.0    3,392.0     3,392     3,392          0.0  void thrust::THRUST_200500_890_NS::cuda_cub::core::_kernel_agent<thrust::THRUST_200500_890_NS::cuda…
+      0.2            1,408          1    1,408.0    1,408.0     1,408     1,408          0.0  d_reset()                                                                                           
+      0.2            1,376          1    1,376.0    1,376.0     1,376     1,376          0.0  void cub::CUB_200500_890_NS::detail::for_each::static_kernel<cub::CUB_200500_890_NS::detail::for_ea…
+      0.1              896          1      896.0      896.0       896       896          0.0  void thrust::THRUST_200500_890_NS::cuda_cub::core::_kernel_agent<thrust::THRUST_200500_890_NS::cuda…
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)           Operation          
+ --------  ---------------  -----  -----------  -----------  ---------  ---------  -----------  ----------------------------
+     91.4        8,110,029      1  8,110,029.0  8,110,029.0  8,110,029  8,110,029          0.0  [CUDA memcpy Host-to-Device]
+      8.6          765,796      3    255,265.3      1,376.0      1,344    763,076    439,776.9  [CUDA memcpy Device-to-Host]
+      0.0            1,376      1      1,376.0      1,376.0      1,376      1,376          0.0  [CUDA memset]               
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)           Operation          
+ ----------  -----  --------  --------  --------  --------  -----------  ----------------------------
+    189.505      1   189.505   189.505   189.505   189.505        0.000  [CUDA memcpy Host-to-Device]
+     20.103      3     6.701     0.000     0.000    20.103       11.606  [CUDA memcpy Device-to-Host]
+      0.012      1     0.012     0.012     0.012     0.012        0.000  [CUDA memset]               
+
+Generated:
+    /tmp/nsys-report-e43d.nsys-rep
+    /tmp/nsys-report-1d29.sqlite
+Failed to create '/home/shixun/25_SC_cuSZHi_artifact/./nsys_results0.nsys-rep': File exists.
+Use `--force-overwrite true` to overwrite existing files.
+Failed to create '/home/shixun/25_SC_cuSZHi_artifact/./nsys_results0.sqlite': File exists.
+Use `--force-overwrite true` to overwrite existing files.
+-pfpl_compress-
+-pfpl_decompress-
+PFPL GPU Single-Precision NOA Decompressor
+Copyright 2025 Texas State University
+
+encoded size: 20103017 bytes
+lc decomp ecltime,  0.000862752
+decoded size: 189504940 bytes
+compression ratio: 9.43
+Collecting data...
+Generating '/tmp/nsys-report-ad29.qdstrm'
+
+[1/8] [0%                          ] nsys-report-d7f2.nsys-rep
+[1/8] [0%                          ] nsys-report-d7f2.nsys-rep
+[1/8] [=======39%                  ] nsys-report-d7f2.nsys-rep
+[1/8] [=================74%        ] nsys-report-d7f2.nsys-rep
+[1/8] [==================75%       ] nsys-report-d7f2.nsys-rep
+[1/8] [==================76%       ] nsys-report-d7f2.nsys-rep
+[1/8] [===================79%      ] nsys-report-d7f2.nsys-rep
+[1/8] [===================81%      ] nsys-report-d7f2.nsys-rep
+[1/8] [========================98% ] nsys-report-d7f2.nsys-rep
+[1/8] [========================100%] nsys-report-d7f2.nsys-rep
+[1/8] [========================100%] nsys-report-d7f2.nsys-rep
+
+[2/8] [0%                          ] nsys-report-885f.sqlite
+[2/8] [1%                          ] nsys-report-885f.sqlite
+[2/8] [2%                          ] nsys-report-885f.sqlite
+[2/8] [3%                          ] nsys-report-885f.sqlite
+[2/8] [4%                          ] nsys-report-885f.sqlite
+[2/8] [5%                          ] nsys-report-885f.sqlite
+[2/8] [6%                          ] nsys-report-885f.sqlite
+[2/8] [7%                          ] nsys-report-885f.sqlite
+[2/8] [8%                          ] nsys-report-885f.sqlite
+[2/8] [9%                          ] nsys-report-885f.sqlite
+[2/8] [10%                         ] nsys-report-885f.sqlite
+[2/8] [11%                         ] nsys-report-885f.sqlite
+[2/8] [12%                         ] nsys-report-885f.sqlite
+[2/8] [13%                         ] nsys-report-885f.sqlite
+[2/8] [14%                         ] nsys-report-885f.sqlite
+[2/8] [=15%                        ] nsys-report-885f.sqlite
+[2/8] [=16%                        ] nsys-report-885f.sqlite
+[2/8] [=17%                        ] nsys-report-885f.sqlite
+[2/8] [==18%                       ] nsys-report-885f.sqlite
+[2/8] [==19%                       ] nsys-report-885f.sqlite
+[2/8] [==20%                       ] nsys-report-885f.sqlite
+[2/8] [==21%                       ] nsys-report-885f.sqlite
+[2/8] [===22%                      ] nsys-report-885f.sqlite
+[2/8] [===23%                      ] nsys-report-885f.sqlite
+[2/8] [===24%                      ] nsys-report-885f.sqlite
+[2/8] [====25%                     ] nsys-report-885f.sqlite
+[2/8] [====26%                     ] nsys-report-885f.sqlite
+[2/8] [====27%                     ] nsys-report-885f.sqlite
+[2/8] [====28%                     ] nsys-report-885f.sqlite
+[2/8] [=====29%                    ] nsys-report-885f.sqlite
+[2/8] [=====30%                    ] nsys-report-885f.sqlite
+[2/8] [=====31%                    ] nsys-report-885f.sqlite
+[2/8] [=====32%                    ] nsys-report-885f.sqlite
+[2/8] [======33%                   ] nsys-report-885f.sqlite
+[2/8] [======34%                   ] nsys-report-885f.sqlite
+[2/8] [======35%                   ] nsys-report-885f.sqlite
+[2/8] [=======36%                  ] nsys-report-885f.sqlite
+[2/8] [=======37%                  ] nsys-report-885f.sqlite
+[2/8] [=======38%                  ] nsys-report-885f.sqlite
+[2/8] [=======39%                  ] nsys-report-885f.sqlite
+[2/8] [========40%                 ] nsys-report-885f.sqlite
+[2/8] [========41%                 ] nsys-report-885f.sqlite
+[2/8] [========42%                 ] nsys-report-885f.sqlite
+[2/8] [=========43%                ] nsys-report-885f.sqlite
+[2/8] [=========44%                ] nsys-report-885f.sqlite
+[2/8] [=========45%                ] nsys-report-885f.sqlite
+[2/8] [=========46%                ] nsys-report-885f.sqlite
+[2/8] [==========47%               ] nsys-report-885f.sqlite
+[2/8] [==========48%               ] nsys-report-885f.sqlite
+[2/8] [==========49%               ] nsys-report-885f.sqlite
+[2/8] [===========50%              ] nsys-report-885f.sqlite
+[2/8] [===========51%              ] nsys-report-885f.sqlite
+[2/8] [===========52%              ] nsys-report-885f.sqlite
+[2/8] [===========53%              ] nsys-report-885f.sqlite
+[2/8] [============54%             ] nsys-report-885f.sqlite
+[2/8] [============55%             ] nsys-report-885f.sqlite
+[2/8] [============56%             ] nsys-report-885f.sqlite
+[2/8] [============57%             ] nsys-report-885f.sqlite
+[2/8] [=============58%            ] nsys-report-885f.sqlite
+[2/8] [=============59%            ] nsys-report-885f.sqlite
+[2/8] [=============60%            ] nsys-report-885f.sqlite
+[2/8] [==============61%           ] nsys-report-885f.sqlite
+[2/8] [==============62%           ] nsys-report-885f.sqlite
+[2/8] [==============63%           ] nsys-report-885f.sqlite
+[2/8] [==============64%           ] nsys-report-885f.sqlite
+[2/8] [===============65%          ] nsys-report-885f.sqlite
+[2/8] [===============66%          ] nsys-report-885f.sqlite
+[2/8] [===============67%          ] nsys-report-885f.sqlite
+[2/8] [================68%         ] nsys-report-885f.sqlite
+[2/8] [================69%         ] nsys-report-885f.sqlite
+[2/8] [================70%         ] nsys-report-885f.sqlite
+[2/8] [================71%         ] nsys-report-885f.sqlite
+[2/8] [=================72%        ] nsys-report-885f.sqlite
+[2/8] [=================73%        ] nsys-report-885f.sqlite
+[2/8] [=================74%        ] nsys-report-885f.sqlite
+[2/8] [==================75%       ] nsys-report-885f.sqlite
+[2/8] [==================76%       ] nsys-report-885f.sqlite
+[2/8] [==================77%       ] nsys-report-885f.sqlite
+[2/8] [==================78%       ] nsys-report-885f.sqlite
+[2/8] [===================79%      ] nsys-report-885f.sqlite
+[2/8] [===================80%      ] nsys-report-885f.sqlite
+[2/8] [===================81%      ] nsys-report-885f.sqlite
+[2/8] [===================82%      ] nsys-report-885f.sqlite
+[2/8] [====================83%     ] nsys-report-885f.sqlite
+[2/8] [====================84%     ] nsys-report-885f.sqlite
+[2/8] [====================85%     ] nsys-report-885f.sqlite
+[2/8] [=====================86%    ] nsys-report-885f.sqlite
+[2/8] [=====================87%    ] nsys-report-885f.sqlite
+[2/8] [=====================88%    ] nsys-report-885f.sqlite
+[2/8] [=====================89%    ] nsys-report-885f.sqlite
+[2/8] [======================90%   ] nsys-report-885f.sqlite
+[2/8] [======================91%   ] nsys-report-885f.sqlite
+[2/8] [======================92%   ] nsys-report-885f.sqlite
+[2/8] [=======================93%  ] nsys-report-885f.sqlite
+[2/8] [=======================94%  ] nsys-report-885f.sqlite
+[2/8] [=======================95%  ] nsys-report-885f.sqlite
+[2/8] [=======================96%  ] nsys-report-885f.sqlite
+[2/8] [========================97% ] nsys-report-885f.sqlite
+[2/8] [========================98% ] nsys-report-885f.sqlite
+[2/8] [========================99% ] nsys-report-885f.sqlite
+[2/8] [========================100%] nsys-report-885f.sqlite
+[2/8] [========================100%] nsys-report-885f.sqlite
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)     Med (ns)    Min (ns)   Max (ns)    StdDev (ns)            Name         
+ --------  ---------------  ---------  ------------  -----------  --------  -----------  ------------  ----------------------
+     51.0      379,375,177         14  27,098,226.9  5,116,087.5     3,050  100,149,313  39,228,298.3  poll                  
+     28.3      210,117,196        607     346,156.8     12,880.0     1,160   84,376,912   3,590,133.1  ioctl                 
+      9.8       73,044,992          3  24,348,330.7      3,400.0     1,860   73,039,732  42,167,990.5  fwrite                
+      3.9       28,671,731         18   1,592,873.9     12,495.0     4,610   28,267,276   6,657,154.6  mmap                  
+      3.8       27,884,650         36     774,573.6      6,230.0     4,540   27,648,114   4,606,893.1  fclose                
+      2.1       15,911,633         40     397,790.8      7,445.0     4,650   15,509,035   2,450,570.5  fopen                 
+      0.6        4,108,196          4   1,027,049.0     12,200.0     8,710    4,075,086   2,032,025.6  fread                 
+      0.3        1,906,884         29      65,754.6     13,609.0     8,200    1,188,354     217,539.1  mmap64                
+      0.1          665,802          9      73,978.0     79,099.0    43,450      102,339      21,637.4  sem_timedwait         
+      0.1          654,321          3     218,107.0    205,047.0   181,567      267,707      44,530.3  pthread_create        
+      0.1          513,474         49      10,479.1      9,630.0     6,510       24,360       3,660.4  open64                
+      0.0          270,516          1     270,516.0    270,516.0   270,516      270,516           0.0  pthread_cond_wait     
+      0.0           96,178          4      24,044.5      8,999.5     7,980       70,199      30,773.6  fgets                 
+      0.0           65,159         14       4,654.2      4,210.0     2,040       17,020       3,705.0  read                  
+      0.0           60,949          9       6,772.1      6,180.0     4,120       13,340       2,792.6  munmap                
+      0.0           57,859         11       5,259.9      4,530.0     2,350       11,590       2,574.6  write                 
+      0.0           53,450          6       8,908.3      8,360.0     5,970       12,650       2,445.4  open                  
+      0.0           36,309          2      18,154.5     18,154.5    14,559       21,750       5,084.8  socket                
+      0.0           20,059          3       6,686.3      6,850.0     3,180       10,029       3,427.4  pipe2                 
+      0.0           19,200          3       6,400.0      6,510.0     6,140        6,550         226.1  fopen64               
+      0.0           18,720          1      18,720.0     18,720.0    18,720       18,720           0.0  connect               
+      0.0           10,940          2       5,470.0      5,470.0     3,430        7,510       2,885.0  pthread_cond_broadcast
+      0.0            2,820          2       1,410.0      1,410.0     1,310        1,510         141.4  fcntl                 
+      0.0            2,540          1       2,540.0      2,540.0     2,540        2,540           0.0  bind                  
+      0.0            1,170          1       1,170.0      1,170.0     1,170        1,170           0.0  listen                
+      0.0            1,050          1       1,050.0      1,050.0     1,050        1,050           0.0  dup                   
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)      Med (ns)     Min (ns)    Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ------------  ------------  ----------  ----------  -----------  ----------------------
+     64.5       86,095,060          1  86,095,060.0  86,095,060.0  86,095,060  86,095,060          0.0  cudaMallocHost        
+     27.1       36,168,120          1  36,168,120.0  36,168,120.0  36,168,120  36,168,120          0.0  cudaFreeHost          
+      6.1        8,195,171          3   2,731,723.7     987,857.0      21,700   7,185,614  3,887,315.2  cudaMemcpy            
+      1.4        1,827,786          3     609,262.0     511,303.0     230,777   1,085,706    435,801.4  cudaFree              
+      0.4          570,993          7      81,570.4       4,700.0         860     553,413    208,072.4  cudaDeviceSynchronize 
+      0.3          355,466          3     118,488.7     115,169.0      77,109     163,188     43,135.4  cudaMalloc            
+      0.2          302,196          2     151,098.0     151,098.0      40,149     262,047    156,905.6  cudaLaunchKernel      
+      0.0           11,330          2       5,665.0       5,665.0         380      10,950      7,474.1  cudaEventCreate       
+      0.0            8,460          2       4,230.0       4,230.0       2,820       5,640      1,994.0  cudaEventRecord       
+      0.0            3,660          2       1,830.0       1,830.0         340       3,320      2,107.2  cudaEventDestroy      
+      0.0            3,120          1       3,120.0       3,120.0       3,120       3,120          0.0  cudaEventSynchronize  
+      0.0              880          1         880.0         880.0         880         880          0.0  cuModuleGetLoadingMode
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)                           Name                          
+ --------  ---------------  ---------  ---------  ---------  --------  --------  -----------  -------------------------------------------------------
+     99.8          550,979          1  550,979.0  550,979.0   550,979   550,979          0.0  d_decode(const unsigned char *, unsigned char *, int *)
+      0.2            1,375          1    1,375.0    1,375.0     1,375     1,375          0.0  d_reset()                                              
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count   Avg (ns)     Med (ns)    Min (ns)  Max (ns)   StdDev (ns)           Operation          
+ --------  ---------------  -----  -----------  -----------  --------  ---------  -----------  ----------------------------
+     88.4        7,178,951      2  3,589,475.5  3,589,475.5     1,280  7,177,671  5,074,474.7  [CUDA memcpy Device-to-Host]
+     11.6          943,205      1    943,205.0    943,205.0   943,205    943,205          0.0  [CUDA memcpy Host-to-Device]
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)           Operation          
+ ----------  -----  --------  --------  --------  --------  -----------  ----------------------------
+    189.505      2    94.752    94.752     0.000   189.505      134.000  [CUDA memcpy Device-to-Host]
+     20.103      1    20.103    20.103    20.103    20.103        0.000  [CUDA memcpy Host-to-Device]
+
+Generated:
+    /tmp/nsys-report-d7f2.nsys-rep
+    /tmp/nsys-report-885f.sqlite
+Failed to create '/home/shixun/25_SC_cuSZHi_artifact/./nsys_results0.nsys-rep': File exists.
+Use `--force-overwrite true` to overwrite existing files.
+Failed to create '/home/shixun/25_SC_cuSZHi_artifact/./nsys_results0.sqlite': File exists.
+Use `--force-overwrite true` to overwrite existing files.
+SKIPPED: /tmp/nsys-report-885f.sqlite does not contain NV Tools Extension (NVTX) data.
+-pfpl_decompress-
+-nvcomp-
+----------
+files: 1
+uncompressed (B): 20103017
+comp_size: 20093268, compressed ratio: 1.0005
+compression throughput (GB/s): 453.2607
+decompression throughput (GB/s): 173.8775
+Collecting data...
+Generating '/tmp/nsys-report-6fd0.qdstrm'
+
+[1/8] [0%                          ] nsys-report-a5cd.nsys-rep
+[1/8] [0%                          ] nsys-report-a5cd.nsys-rep
+[1/8] [=17%                        ] nsys-report-a5cd.nsys-rep
+[1/8] [=====32%                    ] nsys-report-a5cd.nsys-rep
+[1/8] [======33%                   ] nsys-report-a5cd.nsys-rep
+[1/8] [======34%                   ] nsys-report-a5cd.nsys-rep
+[1/8] [======35%                   ] nsys-report-a5cd.nsys-rep
+[1/8] [=======36%                  ] nsys-report-a5cd.nsys-rep
+[1/8] [======================90%   ] nsys-report-a5cd.nsys-rep
+[1/8] [========================100%] nsys-report-a5cd.nsys-rep
+[1/8] [========================100%] nsys-report-a5cd.nsys-rep
+
+[2/8] [0%                          ] nsys-report-5d1b.sqlite
+[2/8] [1%                          ] nsys-report-5d1b.sqlite
+[2/8] [2%                          ] nsys-report-5d1b.sqlite
+[2/8] [3%                          ] nsys-report-5d1b.sqlite
+[2/8] [4%                          ] nsys-report-5d1b.sqlite
+[2/8] [5%                          ] nsys-report-5d1b.sqlite
+[2/8] [6%                          ] nsys-report-5d1b.sqlite
+[2/8] [7%                          ] nsys-report-5d1b.sqlite
+[2/8] [8%                          ] nsys-report-5d1b.sqlite
+[2/8] [9%                          ] nsys-report-5d1b.sqlite
+[2/8] [10%                         ] nsys-report-5d1b.sqlite
+[2/8] [11%                         ] nsys-report-5d1b.sqlite
+[2/8] [12%                         ] nsys-report-5d1b.sqlite
+[2/8] [13%                         ] nsys-report-5d1b.sqlite
+[2/8] [14%                         ] nsys-report-5d1b.sqlite
+[2/8] [=15%                        ] nsys-report-5d1b.sqlite
+[2/8] [=16%                        ] nsys-report-5d1b.sqlite
+[2/8] [=17%                        ] nsys-report-5d1b.sqlite
+[2/8] [==18%                       ] nsys-report-5d1b.sqlite
+[2/8] [==19%                       ] nsys-report-5d1b.sqlite
+[2/8] [==20%                       ] nsys-report-5d1b.sqlite
+[2/8] [==21%                       ] nsys-report-5d1b.sqlite
+[2/8] [===22%                      ] nsys-report-5d1b.sqlite
+[2/8] [===23%                      ] nsys-report-5d1b.sqlite
+[2/8] [===24%                      ] nsys-report-5d1b.sqlite
+[2/8] [====25%                     ] nsys-report-5d1b.sqlite
+[2/8] [====26%                     ] nsys-report-5d1b.sqlite
+[2/8] [====27%                     ] nsys-report-5d1b.sqlite
+[2/8] [====28%                     ] nsys-report-5d1b.sqlite
+[2/8] [=====29%                    ] nsys-report-5d1b.sqlite
+[2/8] [=====30%                    ] nsys-report-5d1b.sqlite
+[2/8] [=====31%                    ] nsys-report-5d1b.sqlite
+[2/8] [=====32%                    ] nsys-report-5d1b.sqlite
+[2/8] [======33%                   ] nsys-report-5d1b.sqlite
+[2/8] [======34%                   ] nsys-report-5d1b.sqlite
+[2/8] [======35%                   ] nsys-report-5d1b.sqlite
+[2/8] [=======36%                  ] nsys-report-5d1b.sqlite
+[2/8] [=======37%                  ] nsys-report-5d1b.sqlite
+[2/8] [=======38%                  ] nsys-report-5d1b.sqlite
+[2/8] [=======39%                  ] nsys-report-5d1b.sqlite
+[2/8] [========40%                 ] nsys-report-5d1b.sqlite
+[2/8] [========41%                 ] nsys-report-5d1b.sqlite
+[2/8] [========42%                 ] nsys-report-5d1b.sqlite
+[2/8] [=========43%                ] nsys-report-5d1b.sqlite
+[2/8] [=========44%                ] nsys-report-5d1b.sqlite
+[2/8] [=========45%                ] nsys-report-5d1b.sqlite
+[2/8] [=========46%                ] nsys-report-5d1b.sqlite
+[2/8] [==========47%               ] nsys-report-5d1b.sqlite
+[2/8] [==========48%               ] nsys-report-5d1b.sqlite
+[2/8] [==========49%               ] nsys-report-5d1b.sqlite
+[2/8] [===========50%              ] nsys-report-5d1b.sqlite
+[2/8] [===========51%              ] nsys-report-5d1b.sqlite
+[2/8] [===========52%              ] nsys-report-5d1b.sqlite
+[2/8] [===========53%              ] nsys-report-5d1b.sqlite
+[2/8] [============54%             ] nsys-report-5d1b.sqlite
+[2/8] [============55%             ] nsys-report-5d1b.sqlite
+[2/8] [============56%             ] nsys-report-5d1b.sqlite
+[2/8] [============57%             ] nsys-report-5d1b.sqlite
+[2/8] [=============58%            ] nsys-report-5d1b.sqlite
+[2/8] [=============59%            ] nsys-report-5d1b.sqlite
+[2/8] [=============60%            ] nsys-report-5d1b.sqlite
+[2/8] [==============61%           ] nsys-report-5d1b.sqlite
+[2/8] [==============62%           ] nsys-report-5d1b.sqlite
+[2/8] [==============63%           ] nsys-report-5d1b.sqlite
+[2/8] [==============64%           ] nsys-report-5d1b.sqlite
+[2/8] [===============65%          ] nsys-report-5d1b.sqlite
+[2/8] [===============66%          ] nsys-report-5d1b.sqlite
+[2/8] [===============67%          ] nsys-report-5d1b.sqlite
+[2/8] [================68%         ] nsys-report-5d1b.sqlite
+[2/8] [================69%         ] nsys-report-5d1b.sqlite
+[2/8] [================70%         ] nsys-report-5d1b.sqlite
+[2/8] [================71%         ] nsys-report-5d1b.sqlite
+[2/8] [=================72%        ] nsys-report-5d1b.sqlite
+[2/8] [=================73%        ] nsys-report-5d1b.sqlite
+[2/8] [=================74%        ] nsys-report-5d1b.sqlite
+[2/8] [==================75%       ] nsys-report-5d1b.sqlite
+[2/8] [==================76%       ] nsys-report-5d1b.sqlite
+[2/8] [==================77%       ] nsys-report-5d1b.sqlite
+[2/8] [==================78%       ] nsys-report-5d1b.sqlite
+[2/8] [===================79%      ] nsys-report-5d1b.sqlite
+[2/8] [===================80%      ] nsys-report-5d1b.sqlite
+[2/8] [===================81%      ] nsys-report-5d1b.sqlite
+[2/8] [===================82%      ] nsys-report-5d1b.sqlite
+[2/8] [====================83%     ] nsys-report-5d1b.sqlite
+[2/8] [====================84%     ] nsys-report-5d1b.sqlite
+[2/8] [====================85%     ] nsys-report-5d1b.sqlite
+[2/8] [=====================86%    ] nsys-report-5d1b.sqlite
+[2/8] [=====================87%    ] nsys-report-5d1b.sqlite
+[2/8] [=====================88%    ] nsys-report-5d1b.sqlite
+[2/8] [=====================89%    ] nsys-report-5d1b.sqlite
+[2/8] [======================90%   ] nsys-report-5d1b.sqlite
+[2/8] [======================91%   ] nsys-report-5d1b.sqlite
+[2/8] [======================92%   ] nsys-report-5d1b.sqlite
+[2/8] [=======================93%  ] nsys-report-5d1b.sqlite
+[2/8] [=======================94%  ] nsys-report-5d1b.sqlite
+[2/8] [=======================95%  ] nsys-report-5d1b.sqlite
+[2/8] [=======================96%  ] nsys-report-5d1b.sqlite
+[2/8] [========================97% ] nsys-report-5d1b.sqlite
+[2/8] [========================98% ] nsys-report-5d1b.sqlite
+[2/8] [========================99% ] nsys-report-5d1b.sqlite
+[2/8] [========================100%] nsys-report-5d1b.sqlite
+[2/8] [========================100%] nsys-report-5d1b.sqlite
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)            Name         
+ --------  ---------------  ---------  ------------  -----------  --------  ----------  ------------  ----------------------
+     58.1      179,229,236         12  14,935,769.7  1,507,815.0     2,110  79,367,939  26,442,137.2  poll                  
+     39.2      121,070,288        770     157,234.1     13,530.0     1,170  19,220,946     957,688.1  ioctl                 
+      0.8        2,562,026         15     170,801.7      4,030.0     2,210   2,510,267     647,194.7  read                  
+      0.6        1,895,004         29      65,345.0     12,740.0     6,350   1,202,164     220,151.8  mmap64                
+      0.4        1,227,625          9     136,402.8     77,249.0    42,740     685,431     206,549.7  sem_timedwait         
+      0.2          698,661          3     232,887.0    244,627.0   206,257     247,777      23,116.0  pthread_create        
+      0.1          453,084         49       9,246.6      9,109.0     6,360      13,980       1,772.1  open64                
+      0.1          373,865         38       9,838.6      7,365.0     4,520      34,540       6,586.9  fopen                 
+      0.1          346,972         18      19,276.2      8,859.5     4,679     112,209      28,036.6  mmap                  
+      0.1          241,996         35       6,914.2      6,060.0     5,130      14,900       2,306.2  fclose                
+      0.0          152,388          1     152,388.0    152,388.0   152,388     152,388           0.0  pthread_cond_wait     
+      0.0           96,628          4      24,157.0      8,989.5     8,020      70,629      30,985.2  fgets                 
+      0.0           72,468         12       6,039.0      5,865.0     3,580      11,860       2,445.2  munmap                
+      0.0           51,890          6       8,648.3      8,365.0     5,600      12,450       2,432.4  open                  
+      0.0           48,050         11       4,368.2      4,580.0     2,120       7,320       1,395.9  write                 
+      0.0           42,320          4      10,580.0      6,485.0     6,060      23,290       8,475.7  fopen64               
+      0.0           36,079          2      18,039.5     18,039.5    15,090      20,989       4,171.2  socket                
+      0.0           24,360          2      12,180.0     12,180.0     9,330      15,030       4,030.5  fread                 
+      0.0           23,900          6       3,983.3      2,190.0     2,060      12,880       4,362.1  fflush                
+      0.0           17,308          3       5,769.3      6,889.0     3,390       7,029       2,061.8  pipe2                 
+      0.0           12,420          1      12,420.0     12,420.0    12,420      12,420           0.0  connect               
+      0.0           11,740          3       3,913.3      2,010.0     1,810       7,920       3,471.3  fwrite                
+      0.0            6,860          2       3,430.0      3,430.0     3,390       3,470          56.6  pthread_cond_broadcast
+      0.0            3,620          3       1,206.7      1,040.0     1,010       1,570         315.0  fcntl                 
+      0.0            1,880          1       1,880.0      1,880.0     1,880       1,880           0.0  bind                  
+      0.0            1,250          1       1,250.0      1,250.0     1,250       1,250           0.0  dup                   
+      0.0            1,180          1       1,180.0      1,180.0     1,180       1,180           0.0  listen                
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls  Avg (ns)   Med (ns)  Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ---------  --------  --------  ---------  -----------  ----------------------
+     63.0       23,723,097      1,858   12,768.1  13,260.0     3,740     25,779      1,517.0  cudaMemcpy            
+     16.0        6,033,391         16  377,086.9  10,340.0     3,800  3,119,169    970,830.0  cudaLaunchKernel      
+     10.1        3,818,871        640    5,967.0   1,420.0       380    432,385     33,891.5  cudaFree              
+      9.0        3,389,505        642    5,279.6   1,360.0       170    377,895     21,755.5  cudaMalloc            
+      1.0          386,023         20   19,301.2  11,425.0     2,420     92,399     23,706.4  cudaStreamSynchronize 
+      0.5          180,437        780      231.3     200.0        80      6,880        278.8  cuGetProcAddress_v2   
+      0.1           38,339          8    4,792.4   3,965.0     2,680     10,050      2,550.5  cudaMemcpyAsync       
+      0.1           32,940          2   16,470.0  16,470.0     8,280     24,660     11,582.4  cudaStreamCreate      
+      0.1           28,770          8    3,596.3   3,570.0     2,040      5,620      1,151.9  cudaEventRecord       
+      0.0           16,280          4    4,070.0   1,710.0       480     12,380      5,635.8  cudaEventCreate       
+      0.0           11,329          2    5,664.5   5,664.5     4,750      6,579      1,293.3  cudaStreamDestroy     
+      0.0           11,070          2    5,535.0   5,535.0     4,260      6,810      1,803.1  cudaMemset            
+      0.0            3,400          2    1,700.0   1,700.0     1,350      2,050        495.0  cuInit                
+      0.0            2,790          4      697.5     595.0       370      1,230        406.6  cudaEventDestroy      
+      0.0            1,290          3      430.0     190.0       170        930        433.1  cuModuleGetLoadingMode
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)                                                  Name                                                
+ --------  ---------------  ---------  --------  --------  --------  --------  -----------  ----------------------------------------------------------------------------------------------------
+     39.6          140,864          2  70,432.0  70,432.0    70,112    70,752        452.5  void bitcomp::batch_decoder_kernel<(bitcompAlgorithm_t)0, unsigned char, (bitcompMode_t)0, (bitcomp…
+     37.4          132,865          6  22,144.2  22,128.0    22,016    22,304        126.2  void nvcomp::thrust::cuda_cub::core::_kernel_agent<nvcomp::thrust::cuda_cub::__parallel_for::Parall…
+     20.6           73,216          2  36,608.0  36,608.0    36,256    36,960        497.8  void bitcomp::batch_encoder_kernel<(bitcompAlgorithm_t)0, unsigned char, unsigned char, (bitcompDat…
+      1.0            3,647          2   1,823.5   1,823.5     1,823     1,824          0.7  bitcomp::utilities::batch_query_compinfo(const void *const *, unsigned long, bitcomp::utilities::ba…
+      0.8            2,848          2   1,424.0   1,424.0     1,408     1,440         22.6  batch_query_sizes                                                                                   
+      0.6            2,080          2   1,040.0   1,040.0       960     1,120        113.1  convertOutputStatusesKernel(nvcompStatus_t *, unsigned long)                                        
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)           Operation          
+ --------  ---------------  -----  --------  --------  --------  --------  -----------  ----------------------------
+     61.7        4,071,656  1,240   3,283.6   3,296.0       927     3,457        228.9  [CUDA memcpy Device-to-Host]
+     38.3        2,525,259    626   4,034.0   4,032.0       448    14,304        676.9  [CUDA memcpy Host-to-Device]
+      0.0              768      2     384.0     384.0       384       384          0.0  [CUDA memset]               
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)           Operation          
+ ----------  -----  --------  --------  --------  --------  -----------  ----------------------------
+     80.434  1,240     0.065     0.066     0.000     0.066        0.006  [CUDA memcpy Device-to-Host]
+     40.236    626     0.064     0.066     0.002     0.066        0.009  [CUDA memcpy Host-to-Device]
+      0.000      2     0.000     0.000     0.000     0.000        0.000  [CUDA memset]               
+
+Generated:
+    /tmp/nsys-report-a5cd.nsys-rep
+    /tmp/nsys-report-5d1b.sqlite
+Failed to create '/home/shixun/25_SC_cuSZHi_artifact/./nsys_results0.nsys-rep': File exists.
+Use `--force-overwrite true` to overwrite existing files.
+Failed to create '/home/shixun/25_SC_cuSZHi_artifact/./nsys_results0.sqlite': File exists.
+Use `--force-overwrite true` to overwrite existing files.
+SKIPPED: /tmp/nsys-report-5d1b.sqlite does not contain NV Tools Extension (NVTX) data.
+-nvcomp-
+-bitcomp-
+Executable not found in current directory or standard search paths
+-bitcomp-
+-compareData-
+This is little-endian system.
+reading data from /home/shixun/data/RTM-selected-449x449x235/aramco-snapshot-3200.f32 
+Min = -1.7060683603631332517E-05, Max = 1.8755028577288612723E-05, range = 3.581571218091994524E-05
+Max absolute error = 0.0000000358
+Max relative error = 0.001000
+Max pw relative error = 1.000000
+PSNR = 65.108185, NRMSE = 0.00055538063421827301748
+normErr = 0.000137, normErr_norm = 0.017480
+pearson coeff = 0.999847
+-compareData-
