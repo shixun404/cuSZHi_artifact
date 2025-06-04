@@ -81,9 +81,9 @@ export LD_LIBRARY_PATH=$(dirname $(which nvcc))/../lib64:$LD_LIBRARY_PATH
 ## (1) get the artifacts repo
 cd $HOME ## It can be anywhere.
 git clone --recursive \
-  https://github.com/shixun404/25_SC_cuSZHi_artifact.git \
-  sc25cuSZHi
-cd sc25cuSZHi
+  https://github.com/shixun404/cuSZHi_artifact.git \
+  cuSZHi
+cd cuSZHi
 
 ## (2) setup
 source setup-all.sh 12 <WHERE_TO_PUT_DATA_DIRS>
