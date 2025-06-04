@@ -1,6 +1,6 @@
-# SC '25 cuSZ-Hi Artifact
+# cuSZ-Hi Artifact
 
-This detached repo is based on the SC '25 artifacts for continous development.
+This detached repo is based on the artifacts for continous development.
 
 ## Artifact Setup
 
