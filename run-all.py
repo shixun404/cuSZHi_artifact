@@ -585,10 +585,10 @@ if __name__ == '__main__':
                     'cuSZi_24',
                       'cuSZi_a3_Huff_1', 'cuSZi_a6_Huff_1', 
                       'cuSZi_a3_Huff_0', 'cuSZi_a6_Huff_0', 
-                    'cuSZi_interp_16_4steps',
-                    'cuSZi_interp_16_4steps_reorder',
-                    'cuSZi_interp_16_4steps_reorder_att_balance_a3',
-                    'cuSZi_interp_16_4steps_reorder_att_balance_a6',
+                    # 'cuSZi_interp_16_4steps',
+                    # 'cuSZi_interp_16_4steps_reorder',
+                    # 'cuSZi_interp_16_4steps_reorder_att_balance_a3',
+                    # 'cuSZi_interp_16_4steps_reorder_att_balance_a6',
                     ]
     error_bound_list = ['1e-2', '5e-3', '1e-3','5e-4', '1e-4', '5e-5', '1e-5']
     bit_rate_list = ['0.5', '1', '2', '4', '6', '8', '12', '16']
@@ -613,6 +613,12 @@ if __name__ == '__main__':
     br_list  = bit_rate_list    if br_list is None else br_list
     
     
+    if not os.path.exists(outputfolder):
+        os.makedirs(outputfolder)
+    
+
+    
+
     datafiles=os.listdir(datafolder)
     logfiles=os.listdir(outputfolder)
     print(logfiles)
@@ -627,11 +633,9 @@ if __name__ == '__main__':
     start_idx = proc_id * chunk_size
     end_idx = start_idx + chunk_size
     datafiles = datafiles[start_idx:end_idx]
-    if not os.path.exists(outputfolder):
-        os.makedirs(outputfolder)
     
     if not os.path.exists(nsys_result_path):
-        os.makedirs(nsys_result_path)
+        os.makedirs(nsys_result_path + f"{proc_id}")
         
     echo_cmd = lambda cmd: print("    ", " ".join(cmd))
     

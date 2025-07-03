@@ -30,20 +30,17 @@ class Analysis:
         self.data_type = data_type
         self.data_type_size = data_type_size
         
-        # self.cmp_list = cmp_list or ['cuSZp']
-        # 'cuSZi_a2_Huff_1', 
-        # 'cuSZi_a2_Huff_0',
         self.cmp_list = [
-                    #     'FZGPU', 
-                    #        'cuSZp_plain', 'cuSZp_outlier',
-                    # 'cuzfp', 
-                    
-                    # 'cuSZi_a3_Huff_1',
-                    #   'cuSZi_a6_Huff_1',
-                    #   'cuSZi_a3_Huff_0',
-                    #     'cuSZi_a6_Huff_0',
-                    #   'cuSZ_24', 
-                      'cuSZi_24',
+                            'FZGPU', 
+                            'cuSZp_plain', 
+                            'cuSZp_outlier',
+                            'cuzfp',     
+                            'cuSZi_a3_Huff_1',
+                            'cuSZi_a6_Huff_1',
+                            'cuSZi_a3_Huff_0',
+                            'cuSZi_a6_Huff_0',
+                            'cuSZ_24', 
+                            'cuSZi_24',
                     #      'cuSZi_interp_16_4steps',
                     # 'cuSZi_interp_16_4steps_reorder',
                     # 'cuSZi_interp_16_4steps_reorder_att_balance_a3',
