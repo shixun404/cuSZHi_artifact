@@ -10,16 +10,16 @@ dataset_dims = {
     # "ARAMCO":   (235, 449, 449),
     
     # NEW tp:
-    "S3D":      (500, 500, 500),
+    # "S3D":      (500, 500, 500),
     "QMCPack":  (69, 69, 33120),
-    "Hurricane":(500, 500, 100),
-    "SCALE":    (1200, 1200, 98),
+    # "Hurricane":(500, 500, 100),
+    # "SCALE":    (1200, 1200, 98),
     "CESM":     (3600, 1800, 1),
     "Miranda":  (384, 384, 256),
     "NYX":      (512, 512, 512),
-    "JHTDB":    (512, 512, 512),
-    "ARAMCO":   (235, 449, 449),
-    "SegSalt":  (1008, 1008, 352),
+    # "JHTDB":    (512, 512, 512),
+    # "ARAMCO":   (235, 449, 449),
+    # "SegSalt":  (1008, 1008, 352),
 }
 
 
@@ -35,10 +35,18 @@ for dataset, dims in dataset_dims.items():
     os.system(cmd)
 
 cmp_list_ = [
-            ["cuSZ_24", "cuSZi_24", "cuSZp_outlier",
-            "cuSZp_plain",
-            "FZGPU",
-            "cuzfp",  "cuSZi_a3_Huff_1" , "cuSZi_a6_Huff_1","cuSZi_a3_Huff_0" , "cuSZi_a6_Huff_0"],
+            [
+                "cuSZ_24",
+                "cuSZi_24",
+                "cuSZp_outlier",
+                "cuSZp_plain",
+                "FZGPU",
+                "cuzfp",
+                "cuSZi_a3_Huff_1",
+                "cuSZi_a6_Huff_1",
+                "cuSZi_a3_Huff_0",
+                "cuSZi_a6_Huff_0",
+            ],
 
             ## ablation
             # [ "cuSZi_24", "cuSZi_a3_Huff_1" , "cuSZi_a6_Huff_1",],
